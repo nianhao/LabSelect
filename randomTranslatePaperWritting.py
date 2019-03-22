@@ -1,12 +1,12 @@
 import random
 
-all_mem=["邢光辉","肖年浩","邹远晨","常晨","张慧","孙小东","尹小涵"]
+all_mem=["邢","肖","邹","常","张","孙","尹"]
 select=[]
 ans={}
-ans["张慧"]=0
-ans["尹小涵"]=1
-ans["邹远晨"]=4
-ans["孙小东"]=3
+ans["张"]=0
+ans["尹"]=1
+ans["邹"]=4
+ans["孙"]=3
 for i in range(7):
     select.append(0)
 for i in range(7):
